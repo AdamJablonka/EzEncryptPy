@@ -11,8 +11,7 @@ def shift(shift_input, shift_key):
         elif ord(x) + (ord(y) - 64) <= ord("~"):
             temp += chr(ord(x) + (ord(y) - 64))
         else:
-            temp += chr(
-                ord(x) + ord(y) - 64 - ord("~") + ord(" "))  # ASCII bounds check, loops around when exceeding limits.
+            temp += chr(ord(x) + ord(y) - 64 - ord("~") + ord(" "))  # ASCII bounds check, loops around when exceeding limits.
     return temp
 
 
