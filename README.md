@@ -12,6 +12,6 @@ sudo apt-get install python3-tk
 
 run
 
-python3 ez-encrypt.py
+python3 ez-encrypt.py 
 
 Enjoy
